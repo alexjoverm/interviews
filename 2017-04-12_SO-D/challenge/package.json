@@ -1,0 +1,17 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0"
+  }
+}
