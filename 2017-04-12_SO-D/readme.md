@@ -1,3 +1,8 @@
+**Time limit: 3h**
+**Taken in: locally (platform free)**
+
+**_Is not finished, is about 60% complete_**
+
 # Code test
 
 This code test arises from a practical idea, that can be summarized as follows.
@@ -39,7 +44,7 @@ if isSelected(A) then !isSelected(B) && if isSelected(B) then !isSelected(A)
 ```
 
 We say that a set of relations are _coherent_ if the laws above are valid for
-that set. For example, this set of relations is coherent: 
+that set. For example, this set of relations is coherent:
 
 ```
 AddDep(A, B) // "A depends on B"
@@ -56,7 +61,7 @@ AddConflict(A, B)
 
 A depends on B, so it's a contradiction that they are exclusive.  If B is
 selected, then A would need to be selected, but that's impossible because, by
-the exclusion rule, A is supposed to be unselected when B is selected. 
+the exclusion rule, A is supposed to be unselected when B is selected.
 
 ```
 AddDep(A, B)
